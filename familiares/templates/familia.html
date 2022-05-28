@@ -7,10 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    {%for familia in familiares%}
-        <h1>Su nombre es: {{familia.nombre}}</h1>
-        <h1>Nacio el dia: {{familia.nombre}}</h1>
-        <h1>Su nombre es: {{familia.nombre}}</h1>
-
+    {%for Familia in familiares%}
+        <h1>Su nombre es: {{Familia.nombre}}</h1>
+        <h1>Nacio el dia: {{Familia.nacimiento}}</h1>
+        <h1>Su nombre es: {{Familia.edad}}</h1>
+        <h1>es mi: {{Familia.parentesco}}</h1>
+    {%endfor%}
 </body>
 </html>
